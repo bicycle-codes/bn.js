@@ -1,5 +1,5 @@
 {
-  "name": "bn.js",
+  "name": "@bicycle-codes/bn.js",
   "version": "5.2.1",
   "description": "Big number implementation in pure javascript",
   "keywords": [
@@ -18,7 +18,6 @@
     "url": "git@github.com:indutny/bn.js"
   },
   "license": "MIT",
-  "author": "Fedor Indutny <fedor@indutny.com>",
   "files": [
     "lib/bn.js"
   ],
@@ -32,8 +31,9 @@
     "unit": "mocha --reporter=spec test/*-test.js"
   },
   "devDependencies": {
-    "eslint-plugin-es5": "^1.5.0",
-    "mocha": "^8.3.0",
-    "standardx": "^7.0.0"
-  }
+  },
+  "author": "Fedor Indutny <fedor@indutny.com>",
+  "contributors": [
+    "Nick Thomas <nichoth@nichoth.com> (https://nichoth.com/)"
+  ]
 }
